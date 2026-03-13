@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="icon" type="image/png" href="resources/logo.png" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <img src="resources/logo.png" alt="Logo" class="logo" />
+      <!-- TODO: Replace "Your Name" with your actual name -->
+      <h1 class="name">Your Name</h1>
+      <!-- TODO: Replace the tagline with your own, or remove the <p> tag entirely -->
+      <p class="tagline">Your tagline here</p>
+    </header>
+
+    <main>
+      <div class="links-grid">
+
+        <!-- GitHub -->
+        <!-- TODO: Replace href="#placeholder" with your GitHub profile URL, e.g. https://github.com/yourusername -->
+        <a href="#placeholder" class="card" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github card__icon"></i>
+          <span class="card__name">GitHub</span>
+        </a>
+
+        <!-- LinkedIn -->
+        <!-- TODO: Replace href="#placeholder" with your LinkedIn profile URL, e.g. https://linkedin.com/in/yourusername -->
+        <a href="#placeholder" class="card" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin card__icon"></i>
+          <span class="card__name">LinkedIn</span>
+        </a>
+
+        <!-- Thingiverse -->
+        <!-- TODO: Replace href="#placeholder" with your Thingiverse profile URL, e.g. https://www.thingiverse.com/yourusername -->
+        <a href="#placeholder" class="card" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-cube card__icon"></i>
+          <span class="card__name">Thingiverse</span>
+        </a>
+
+        <!-- Printables -->
+        <!-- TODO: Replace href="#placeholder" with your Printables profile URL, e.g. https://www.printables.com/@yourusername -->
+        <a href="#placeholder" class="card" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-print card__icon"></i>
+          <span class="card__name">Printables</span>
+        </a>
+
+        <!-- ORCID -->
+        <!-- TODO: Replace href="#placeholder" with your ORCID profile URL, e.g. https://orcid.org/0000-0000-0000-0000 -->
+        <a href="#placeholder" class="card" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-orcid card__icon"></i>
+          <span class="card__name">ORCID</span>
+        </a>
+
+        <!-- YouTube -->
+        <!-- TODO: Replace href="#placeholder" with your YouTube channel URL, e.g. https://youtube.com/@yourusername -->
+        <a href="#placeholder" class="card" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-youtube card__icon"></i>
+          <span class="card__name">YouTube</span>
+        </a>
+
+      </div>
+    </main>
+
+    <footer>
+      <!-- TODO: Replace "Your Name" with your actual name -->
+      <p>&copy; <span id="year"></span> Your Name</p>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
